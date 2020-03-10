@@ -1,10 +1,3 @@
-# GUI for senior design 
-# Logic for GUI
-# Input ID number> once the proper character
-# numbers then light up the start button>
-# Have emergncy stop light up >
-# Once complete will auto stop and return to 
-# the main screen.
 
 from guizero import App, Text, TextBox, PushButton
 
@@ -20,8 +13,4 @@ IDbox = TextBox(app, width=5)
 # Need to find a library that creates the touchscreen 
 # Make the start button bigger
 def begintest():
-
-
-app.display()
-
-
+    app.display()
