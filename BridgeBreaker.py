@@ -6,6 +6,8 @@
 # Once complete will auto stop and return to
 # the main screen.
 
+
+
 INSTALLED_APPS - [
     'django.contrib.admin',
     'django.contrib.auth',
