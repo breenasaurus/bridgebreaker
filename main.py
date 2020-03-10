@@ -1,3 +1,3 @@
 execfile('HelloWorld.py')
 
-execfile('guizero.py')
+execfile('testgui.py')
