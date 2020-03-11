@@ -18,6 +18,8 @@ def start_button():
   IDbox = int(teamID)
   info("Testing", "Testing the Bridge")
   actual_test = Window(app, title = "Emergency Stop")
+  text = Text(actual_test, text="In case of emergency please press the emergency stop.")
+  emergency = PushButton(actual_test,command = actual_test.hide, text="EMERGENCY STOP!")
   
 update_ID = PushButton(app, command = start_button, text="Start bridge test!")
 
