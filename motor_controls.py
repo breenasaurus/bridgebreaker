@@ -38,9 +38,6 @@ def Stop_LA():
 GPIO.cleanup()
 
 setup()
-while True:
-    Go_Down()
-    time.sleep(2)
-    Stop_LA()
+Go_Down()
 
 
