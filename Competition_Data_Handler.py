@@ -9,8 +9,8 @@ from google.auth.transport.requests import Request
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # The ID and range of the spreadsheet to be read from.
-SPREADSHEET_ID = '1urFhrCpVdELdqRvWMocw1J7PZSwFVazyOLvV8soSi4w'
-RANGE_NAME = 'Sheet1!A2:E2'
+SPREADSHEET_ID = '1SWTRqL6k01RxmQKH-kC982g1cRjQCZB9h0jntFswlcs'
+RANGE_NAME = 'Sheet1!A2:H2'
 
 # Writes data to Google spreadsheet at cell address
 def writeCell(sheet, cellAdr, cellValue):
@@ -21,7 +21,7 @@ def writeCell(sheet, cellAdr, cellValue):
                                    body=cellBody).execute()
 
 def main():
-    tokenPath = 'C:\\Users\\Joshua Stapp\\source\\repos\\Competition Data Handler\\'
+    tokenPath = '/hom/pi/bridgebreaker/Competition Data Handler'
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
